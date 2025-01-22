@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #555555;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #3f3f3f;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3f3f3f;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #841c8a;
+    color: white;
+    cursor: pointer;
+    border: none;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #8e4db1;
+}
+
+#blogList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blog-item {
+    padding: 20px;
+    border: 1px solid #3f3f3f;
+    border-radius: 10px;
+    background-color: #555555;
+    color: #fff;
+    text-align: left; 
+    position: relative; 
+}
+
+#blogList button {
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px; 
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#blogList button:hover {
+    background-color: #d32f2f;
+}
